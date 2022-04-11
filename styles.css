@@ -116,7 +116,9 @@ body {
 .information img {
     border-radius: 2%;
     width: 15vw;
+    height: 12em;
     border-color: #3882f6;
     border-width: 0.2em;
     border-style: solid;
+    object-fit: cover;
 }
