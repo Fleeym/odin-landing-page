@@ -118,12 +118,11 @@ footer {
     width: 20vw;
     color: #1F2937;
     text-align: center;
-    word-wrap: break-word;
 }
 
 .information img {
-    border-radius: 2%;
-    width: 15vw;
+    border-radius: 0.5em;
+    width: 17vw;
     height: 12em;
     border-color: #3882f6;
     border-width: 0.2em;
