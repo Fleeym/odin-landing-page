@@ -2,14 +2,16 @@ body {
     font-family: Roboto, sans-serif;
     margin: 0;
     color: white;
-    background-color: #1F2937;
+    background-color: white;
     height: auto;
 }
 
 .header,
 .hero,
 .information,
-.quote {
+.quote,
+.sign-up,
+footer {
     padding: 50px 10vw;
 }
 
@@ -65,6 +67,7 @@ body {
     justify-content: space-between;
     color: #F9FAF8;
     gap: 10em;
+    background-color: #1F2937;
 }
 
 .hero button,
@@ -82,7 +85,7 @@ body {
     background-color: #3882f6;
     color: #F9FAF8;
     border-style: none;
-    border-radius: 10px;
+    border-radius: 0.5em;
     width: 7em;
     height: 2.5em;
     font-size: 16px;
@@ -126,9 +129,10 @@ body {
 }
 
 .quote {
-    padding: 0 500px;
     background-color: #e5e7eb;
     margin: 0px;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 
 .quote-text {
@@ -137,8 +141,6 @@ body {
     font-style: italic;
     text-align: center;
     margin: 0px;
-    padding-top: 100px;
-    padding-bottom: 100px;
 }
 
 .quote-author {
@@ -147,4 +149,45 @@ body {
     font-weight: bold;
     margin: 0px;
     color: #1F2937;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    margin: 100px 15vw;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 0;
+}
+
+.sign-up-big-text {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.sign-up button {
+    background-color: #3882f6;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-radius: 0.5em;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
+    height: 36px;
+    width: 130px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F2937;
+    font-weight: bold;
+    font-size: 16px;
 }
