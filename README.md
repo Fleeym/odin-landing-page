@@ -3,6 +3,7 @@ Second exercise from the Odin Project.
 Used to practice flexbox and basic styling.
 
 Reference is in ../images/reference
+No buttons work, just design.
 
 ## Credits
 Images have been taken from Unsplash, here are the links to each of them:
